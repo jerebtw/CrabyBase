@@ -1,0 +1,10 @@
+CREATE TABLE "#logs" (
+  id TEXT PRIMARY KEY,
+  url TEXT NOT NULL,
+  method TEXT NOT NULL,
+  status INTEGER NOT NULL,
+  auth TEXT NOT NULL,
+  meta JSON NOT NULL,
+  userAgent TEXT NOT NULL,
+  created TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP 
+)
