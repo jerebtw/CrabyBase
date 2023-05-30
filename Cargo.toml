@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "crates/crabybase-db",
+  "crates/crabybase-cli",
+]
